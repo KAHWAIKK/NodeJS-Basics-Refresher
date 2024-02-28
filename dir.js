@@ -10,9 +10,9 @@ fs.mkdir('./newDirectory', (error) => {
 
 //deleting an existing directory
 
-fs.rmdir('./newDirectory', (error) => {
+/* fs.rmdir('./newDirectory', (error) => {
     if (error) throw error;
     else {
         console.log('Directory removed successfully')
     }
-})
+}) */
